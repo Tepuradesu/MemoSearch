@@ -1,0 +1,7 @@
+開発サーバ起動
+npm run serve -- --port 9000
+
+
+コンテナ内でデタッチモードでサーバ起動
+docker exec -it -w /app/memo-search vue npm run serve -- --port 9000
+
